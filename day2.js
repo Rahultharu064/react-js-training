@@ -1,4 +1,98 @@
-    let haha=[
+// let myName="rahu;"
+// let age=22
+// let address="dharan"
+// let me ={
+//     myName:"Rahul",
+//     age:22,
+//     address:"itahari"
+
+// }
+// console.log(Object.keys(me))
+// console.log(Object.values(me))
+
+// let days=["sun","mon","tue"]
+// console.log(days.length)
+
+// let bulb=false
+// if(bulb){
+//     console.log("bulb on");
+
+// }
+// else{
+//     console.log("bulb off");
+// }
+//  bulb ? console.log("bulb on") : console.log("bulb off")
+
+//  // short circuit 
+//  bulb && console.log("bulb on")
+
+
+
+//  let age1=20;
+//  if(age1>18){
+//     console.log("you can make licens");
+//  }
+//  else{
+//     console.log("you cannot make license");
+//  }
+
+//  age1 ? console.log("you can make license") : console.log("you cannot make license");
+
+//  age1 && console.log("you can make licens")
+
+
+//  ///
+
+//  let weather =21;
+//  if(weather>30){
+//     console.log("hot weather");
+//  }
+//  else if(weather>20){
+//     console.log("normal weather")
+//  }
+//  else{
+//     console.log("above condition failed");
+//  }
+
+
+
+//  /// loop
+
+//  let datas =["sun","mon","tues","wed"]
+//  for( let data of datas ){
+//    console.log("Today is", data);
+//  }
+
+
+//  let datass=[
+//    {
+//     name:"Rahul",
+//     age:20
+//    },
+//    {
+//     name:"bishnu",
+//     age:23
+//    }
+
+
+//  ]
+//  for(let data1 of datass){
+//   console.log("My name is ",Object.values(datass));
+//   console.log("my name is",data1.name);
+//  }
+//  let products=[
+//     {
+//         name:"apple",
+//         price:100
+//         },
+//  ]
+//  console.log(products[0])
+
+   
+
+
+
+let datass=[
     {
       "userId": 1,
       "id": 1,
@@ -1201,7 +1295,10 @@
     }
   ]
 
-  for(let data of haha){
-    console.log(data.id)
+  for(let data of datass){
     console.log(data.title)
+    console.log(data.id)
+    console.log(data.userId)
   }
+
+
